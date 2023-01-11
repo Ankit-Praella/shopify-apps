@@ -41,7 +41,6 @@
             "type": "megamenu",
             "settings": {
               "title": "Men",
-              "image": "shopify:\/\/shop_images\/1_0ae182fa-8c71-468e-850b-23fc81cb3bf4.jpg",
               "link_text": "Shop Now",
               "link_url": "shopify:\/\/collections\/men"
             }
@@ -50,7 +49,6 @@
             "type": "megamenu",
             "settings": {
               "title": "Women",
-              "image": "shopify:\/\/shop_images\/1_d8a840f3-d40e-4d28-8191-715f1a7874e4.jpg",
               "link_text": "Shop Now",
               "link_url": "shopify:\/\/collections\/women"
             }
@@ -80,10 +78,10 @@
         "type": "footer",
         "settings": {
           "fluid_footer": false,
-          "footer_top_bg_color": "#FAF4F0",
+          "footer_top_bg_color": "#faf4f0",
           "footer_top_txt_color": "#000000",
           "footer_top_link_color": "#000000",
-          "footer_bottom_bg_color": "#FAF4F0",
+          "footer_bottom_bg_color": "#faf4f0",
           "footer_bottom_txt_color": "#000000",
           "footer_logo_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0581\/7663\/5061\/files\/logo-fluid.svg?v=1631096036",
           "logo_max_width": 180,
@@ -91,9 +89,9 @@
           "col_2_heading": "Customer Care",
           "footer_linklist_col_2": "main-menu",
           "col_3_heading": "Info",
-          "footer_linklist_col_3": "learn",
+          "footer_linklist_col_3": "",
           "col_4_heading": "Discover",
-          "footer_linklist_col_4": "footer-menu",
+          "footer_linklist_col_4": "",
           "col_5_heading": "Subscribe",
           "col_5_txt": "Get monthly updates and free resources.",
           "show_newsletter": true,
@@ -103,7 +101,7 @@
           "social_icon_twitter": true,
           "social_icon_instagram": true,
           "social_icon_youtube": true,
-          "bottom_footer_linklist": "bottom-footer-nav",
+          "bottom_footer_linklist": "",
           "show_payment_icons": true,
           "payment_icon_visa": true,
           "payment_icon_mastercard": true,
@@ -133,6 +131,52 @@
       },
       "app-optimization": {
         "type": "app-optimization",
+        "blocks": {
+          "3497fd8c-a456-4946-a336-8364a9037113": {
+            "type": "app",
+            "settings": {
+              "title": "",
+              "url": "",
+              "block_index": false,
+              "block_product": false,
+              "block_collection": false,
+              "block_page": false,
+              "block_blog": false,
+              "block_article": false,
+              "block_cart": false,
+              "block_search": false,
+              "block_customers": false,
+              "block_gift_card": false,
+              "scroll_index": false,
+              "scroll_product": false,
+              "scroll_collection": false,
+              "scroll_page": false,
+              "scroll_blog": false,
+              "scroll_article": false,
+              "scroll_cart": false,
+              "scroll_search": false,
+              "scroll_customers": false,
+              "scroll_gift_card": false,
+              "interaction_index": false,
+              "interaction_product": false,
+              "interaction_collection": false,
+              "interaction_page": false,
+              "interaction_blog": false,
+              "interaction_article": false,
+              "interaction_cart": false,
+              "interaction_search": false,
+              "interaction_customers": false,
+              "interaction_gift_card": false,
+              "interaction_selectors_1": "",
+              "interaction_event_1": "click",
+              "interaction_selectors_2": "",
+              "interaction_event_2": "click"
+            }
+          }
+        },
+        "block_order": [
+          "3497fd8c-a456-4946-a336-8364a9037113"
+        ],
         "settings": {
           "enable": true,
           "debug_enable": false
@@ -142,7 +186,6 @@
         "type": "mobile-nav-drawer",
         "settings": {
           "logo_svg": "",
-          "logo": "shopify:\/\/shop_images\/logo-fluid_ac600564-01a4-4f9a-8f2a-47a0f47ff075.png",
           "logo_width": 100,
           "main_menu_linklist": "footer",
           "secondary_menu_linklist": "main-menu",
@@ -161,14 +204,6 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "18218067344242134805": {
-        "type": "shopify:\/\/apps\/product-reviews-ugc-with-q-a\/blocks\/app\/34006358-52bd-4ec7-8c78-200fe58b77ba",
-        "disabled": true,
-        "settings": {
-        }
-      }
-    }
+    ]
   }
 }
