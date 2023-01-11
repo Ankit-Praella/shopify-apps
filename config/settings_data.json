@@ -135,10 +135,10 @@
           "3497fd8c-a456-4946-a336-8364a9037113": {
             "type": "app",
             "settings": {
-              "title": "",
-              "url": "",
+              "title": "Yotpo Product & Photo Reviews",
+              "url": "<script src=\"https:\/\/cdn-widgetsrepository.yotpo.com\/v1\/loader\/WFvmvau7uiVQsZeZDIU8IoGEojxotgQys8ufH0ot\" async><\/script>",
               "block_index": false,
-              "block_product": false,
+              "block_product": true,
               "block_collection": false,
               "block_page": false,
               "block_blog": false,
