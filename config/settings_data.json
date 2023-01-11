@@ -135,8 +135,8 @@
           "07153a64-da30-4ddc-b4fe-aac0ae7689ea": {
             "type": "app",
             "settings": {
-              "title": "",
-              "url": "",
+              "title": "Yotpo Product & Photo Reviews",
+              "url": "cdn-widgetsrepository.yotpo.com\/v1\/loader\/WFvmvau7uiVQsZeZDIU8IoGEojxotgQys8ufH0ot",
               "block_index": false,
               "block_product": false,
               "block_collection": false,
