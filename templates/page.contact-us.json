@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "main": {
+      "type": "template-contact-page",
+      "settings": {
+        "page": "",
+        "fluid_layout": false,
+        "section_bg_color": "#FAFAF7",
+        "section_txt_color": "#000000",
+        "heading": "",
+        "txt": "",
+        "email_heading": "Email Us",
+        "email_name": "customerservice@hyntbeauty.com",
+        "social_heading": "Connect with Us",
+        "show_social_links": true,
+        "social_icon_facebook": true,
+        "social_icon_pinterest": true,
+        "social_icon_twitter": true,
+        "social_icon_instagram": true,
+        "social_icon_youtube": true
+      }
+    },
+    "16735174484079197b": {
+      "type": "apps",
+      "blocks": {
+        "1c7e8008-1293-4b77-b24a-c38edc0a566d": {
+          "type": "shopify:\/\/apps\/contact-us-form-with-captcha\/blocks\/contact-us-form\/a9c778db-ef3e-4d3b-8775-c01d242fd46f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1c7e8008-1293-4b77-b24a-c38edc0a566d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16735174484079197b"
+  ]
+}

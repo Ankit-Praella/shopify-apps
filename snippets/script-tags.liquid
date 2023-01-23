@@ -1,0 +1,140 @@
+{% comment %}theme-check-disable ParserBlockingJavaScript{% endcomment %}
+<script src="{{ 'utility.js' | asset_url }}" ></script>
+
+<script src="{{ 'global.js' | asset_url }}"></script>
+
+{% comment %}theme-check-enable ParserBlockingJavaScript{% endcomment %}
+
+{%- if settings.enable_search -%}
+<script src="{{ 'component-search.js' | asset_url }}" defer></script>
+{%- endif -%}
+
+{% if settings.enable_quickshop %}
+<script src="{{ 'component-quickshop.js' | asset_url }}" defer></script>
+{% endif %}
+
+{%- if settings.enable_cart_drawer or template.name == 'cart' -%}
+    <script src="{{ 'component-ajax-cart.js' | asset_url }}" defer></script>
+{%- endif -%}
+
+{%- comment -%} Index Page JS {%- endcomment -%}
+{%- if template.name == 'index' -%}
+<script src="{{ 'template-index.js' | asset_url }}" defer></script>
+{%- endif -%}
+
+{%- comment -%} Collection Page Filtering and Sorting {%- endcomment -%}
+{%- if template.name == 'collection' -%}
+<script src="{{ 'component-collection-filters.js' | asset_url }}" defer></script>
+<script src="{{ 'template-collection.js' | asset_url }}" defer></script>
+{%- endif -%}
+
+{%- comment -%} Product Page JS {%- endcomment -%}
+{%- if template.name == 'product' -%}
+<script src="{{ 'template-product.js' | asset_url }}" defer></script>
+<!--trust badge app  -->
+ <script src="{{ 'hulkapps_badge_master.js' | asset_url }}" defer></script>
+<!-- END badge app  -->
+
+<!--Restock  app  -->
+<script type="text/javascript">
+      if (typeof window.restockext_config != "object") {
+        window.restockext_config = {}
+      }
+      window.restockext = {
+        shop_slug: "demo-ankit-joshi",
+        store_id: "demo-ankit-joshi.myshopify.com",
+        money_format: "${{amount}}",
+        customer: null,
+        cart: null,
+      }
+        window.restockext.product = {
+          id: 8000719126815,
+          price: 1099,
+          tags: ["15mm","Accessories","Essential","Essentials","Safety Gear","Tool","Tools","Tools and Maintenance","Wheelsets and Accessories","Wrench"],
+          variants: [{"id":43755602608415,"title":"15mm Combo Wrench","option1":"15mm Combo Wrench","option2":null,"option3":null,"sku":"Tool - Ice 15mm Wrench","requires_shipping":true,"taxable":true,"featured_image":{"id":39834988642591,"product_id":8000719126815,"position":1,"created_at":"2022-11-10T12:43:43+05:30","updated_at":"2022-11-10T12:43:43+05:30","alt":null,"width":480,"height":320,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0675\/4009\/1167\/products\/15mm-icetoolz-combo-wrench_1.jpg?v=1668064423","variant_ids":[43755602608415]},"available":false,"name":"15mm Combo Wrench - 15mm Combo Wrench","public_title":"15mm Combo Wrench","options":["15mm Combo Wrench"],"price":1099,"weight":272,"compare_at_price":null,"inventory_management":"shopify","barcode":null,"featured_media":{"alt":null,"id":32158397792543,"position":1,"preview_image":{"aspect_ratio":1.5,"height":320,"width":480,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0675\/4009\/1167\/products\/15mm-icetoolz-combo-wrench_1.jpg?v=1668064423"}}},{"id":44227961585951,"title":"1mm Combo Wrench","option1":"1mm Combo Wrench","option2":null,"option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":null,"available":false,"name":"15mm Combo Wrench - 1mm Combo Wrench","public_title":"1mm Combo Wrench","options":["1mm Combo Wrench"],"price":1099,"weight":272,"compare_at_price":null,"inventory_management":"shopify","barcode":""}]
+        };
+        window.restockext.product_collections = []
+        window.restockext.product_collections.push(432219160863)
+        window.restockext.product_collections.push(428403491103)
+        window.restockext.product_collections.push(427094868255) 
+        window.restockext.cart = {"note":null,"attributes":{},"original_total_price":2800,"total_price":2800,"total_discount":0,"total_weight":453.9552,"item_count":2,"items":[{"id":43755756323103,"properties":{},"quantity":2,"variant_id":43755756323103,"key":"43755756323103:22fe96ed3829c228e7f788b0e8e5c3b0","title":"Hammer Pull Brass Bell","price":1400,"original_price":1400,"discounted_price":1400,"line_price":2800,"original_line_price":2800,"total_discount":0,"discounts":[],"sku":"Bell - Hammer Pull - Brass","grams":227,"vendor":"Pure City Cycles","taxable":true,"product_id":8000795050271,"product_has_only_default_variant":true,"gift_card":false,"final_price":1400,"final_line_price":2800,"url":"\/products\/hammer-pull-brass-bell?variant=43755756323103","featured_image":{"aspect_ratio":1.778,"alt":"Hammer Pull Brass Bell","height":1152,"url":"https:\/\/cdn.shopify.com\/s\/files\/1\/0675\/4009\/1167\/products\/bellprimary.jpg?v=1668065833","width":2048},"image":"https:\/\/cdn.shopify.com\/s\/files\/1\/0675\/4009\/1167\/products\/bellprimary.jpg?v=1668065833","handle":"hammer-pull-brass-bell","requires_shipping":true,"product_type":"Bells","product_title":"Hammer Pull Brass Bell","product_description":"This is a demonstration store. You can purchase products like this from Pure Fix CyclesWith a crystal clear tone and classic good looks, this beautiful brass bell belongs on your bike. Save your voice for serenading and let the Hammer Bell do the work of clearing your path.\n\nSpecs\n\n40mm Brass Bell\nAlloy Clamp\nWill fit 22.2mm or 25.4mm bars\n\n","variant_title":null,"variant_options":["Default Title"],"options_with_values":[{"name":"Title","value":"Default Title"}],"line_level_discount_allocations":[],"line_level_total_discount":0}],"requires_shipping":true,"currency":"USD","items_subtotal_price":2800,"cart_level_discount_applications":[]}
+        delete window.restockext.cart.note
+        window.restockext.cart_collections = {}
+        window.restockext.cart_collections["v43755756323103"] = []
+        window.restockext.cart_collections["v43755756323103"].push(432219160863)
+       if (typeof window.restockext.cart.items == "object") {
+          for (var i=0; i<window.restockext.cart.items.length; i++) {
+              ["sku", "grams", "vendor", "url", "image", "handle", "requires_shipping", "product_type", "product_description"].map(function(a) {
+                  delete window.restockext.cart.items[i][a]
+              })
+          }
+        }
+      
+      window.restockext.page_type = "product"
+      window.restockext.partner_url = "https://restock-master.hulkapps.com";
+    </script>
+   <script src="https://cdn.shopify.com/extensions/bd425a53-8bd2-4160-b566-cf1452254f50/1.42.0/assets/mha-rn-popup-theme-ext.js" type="text/javascript" defer="defer" data-app-id="3164011"></script>
+
+<!-- --Restock End  app  -->
+
+
+
+{%- endif -%}
+
+{% comment %} BEGIN app block: Contact Us Form app {% endcomment %}
+{%- if template == 'page.contact' -%}
+<script src="https://cdn.shopify.com/extensions/2ab51802-a939-47ae-9a6c-46ce79e92828/1.5.0/assets/hulkapps-contact-us.js" type="text/javascript" defer="defer" data-app-id="1496851"></script> -->
+{% endif %}  
+{% comment %} END app block: Hulk Form Builder app {% endcomment %}
+{% if template == 'page.survey' %}
+  <script type="text/javascript"> 
+  if (typeof window.formbuilder_customer != "object") {
+  window.formbuilder_customer = {}
+  }
+  window.FbThemeAppExtSettingsHash = {}
+  </script>
+  <script src="https://cdn.shopify.com/extensions/7286bc7e-1622-46a1-af05-df0ba049996e/1.21.0/assets/form-builder-script.js" type="text/javascript" defer="defer" data-app-id="1496853"></script>
+{% endif %}
+{% comment %} BEGIN app block: Hulk Form Builder app {% endcomment %}
+  
+
+<script src="{{ 'component-product-form.js' | asset_url }}" defer></script>
+
+{%- comment -%} Cart Page JS {%- endcomment -%}
+{% if template.name == 'cart' %}
+<script src="{{ 'template-cart.js' | asset_url }}" defer></script>
+{% endif %}
+
+{%- comment -%} Search Page JS {%- endcomment -%}
+{%- if template.name == 'search' -%}
+<script src="{{ 'component-search-filter.js' | asset_url }}" defer></script>
+<script src="{{ 'template-search.js' | asset_url }}" defer></script>
+{%- endif -%}
+
+{%- comment -%} Login/Register Page JS {%- endcomment -%}
+{%- if template.name == 'login' or template.name == 'register' -%}
+<script src="{{ 'template-login-register.js' | asset_url }}" defer></script>
+{%- endif -%}
+
+{%- comment -%} Address Page JS {%- endcomment -%}
+{%- if template.name == 'addresses' -%}
+<script src="{{ 'template-account-address.js' | asset_url }}" defer></script>
+{%- endif -%}
+
+{%- comment -%} Blog Page JS {%- endcomment -%}
+{%- if template.name == 'blog' or template.name == 'article' -%}
+<script src="{{ 'template-blog-article.js' | asset_url }}" defer></script>
+{%- endif -%}
+
+{%- comment -%} Article Page JS {%- endcomment -%}
+{%- if template == 'page.faq' -%}
+<script src="{{ 'template-faq.js' | asset_url }}" defer></script>
+{%- endif -%}
+
+{%- comment -%} <script src="{{ 'custom.js' | asset_url }}" defer></script> {%- endcomment -%}
+
+{%- comment -%} Customization page JS {%- endcomment -%}
+{%- if request.design_mode -%}
+<script src="{{ 'sections.js' | asset_url }}" defer></script>
+{%- endif -%}
+

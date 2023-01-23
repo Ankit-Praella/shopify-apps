@@ -1,0 +1,240 @@
+{
+  "sections": {
+    "main": {
+      "type": "template-product",
+      "blocks": {
+        "76185562-4eb8-429b-a627-624a152e3944": {
+          "type": "vendor",
+          "settings": {
+            "show_vendor": true
+          }
+        },
+        "f74187b8-c891-42b8-9a6b-2c67a497b018": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "<p>{{ product.metafields.descriptors.subtitle.value }}<\/p>"
+          }
+        },
+        "0cae53aa-3878-4346-b21a-6fcc0a256450": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "81b8e9f4-8ff0-47a8-b30c-2341c62983af": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "use_metafields": true,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "afa1b535-fa29-4adf-9695-3555aeeb3443": {
+          "type": "shopify:\/\/apps\/product-reviews-ugc-with-q-a\/blocks\/review-badge\/34006358-52bd-4ec7-8c78-200fe58b77ba",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "3b316236-d91e-4dd0-953a-173c1f40bfcf": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "fcbf423b-3c83-4097-901c-ca70b8b80e5c": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "b253ffff-d04d-43a0-9d68-fabdd77b595a": {
+          "type": "product_form",
+          "settings": {
+          }
+        },
+        "68b77596-b764-4259-ba5d-ebffccace153": {
+          "type": "shopify:\/\/apps\/trust-badge-master\/blocks\/trustbadge-div-block\/268c65b9-8f6b-465d-9ba7-22a9aa3689e6",
+          "disabled": true,
+          "settings": {
+            "badge_enable": false,
+            "badge_font_color": "#ffffff",
+            "badge_fill_color": "#00a9a2",
+            "icon_alignment": "center",
+            "mobile_icon_size": 100,
+            "icon_size": 135,
+            "badge_heading": "Buy with confidence",
+            "badge_heading_font": "helvetica_n4",
+            "font_size": 20,
+            "text_alignment": "center",
+            "heading_color": "#000000"
+          }
+        },
+        "fcf005ba-c670-4b24-bb26-e600ab97d417": {
+          "type": "shopify:\/\/apps\/advanced-wishlist\/blocks\/wishlist-btn\/330d9272-08ea-4193-b3e0-475a69fa65fa",
+          "settings": {
+            "is_new_icon_settings": false,
+            "theme_color": "#5c6ac4",
+            "button_style": "style_1",
+            "button_border": 0,
+            "button_font_size": 16,
+            "button_font_weight": "500",
+            "button_border_radius": 0,
+            "button_vertical_space": 9,
+            "button_horizontal_space": 16,
+            "button_text_color": "#ffffff",
+            "button_background": "#5c6ac4",
+            "border_color": "#5c6ac4",
+            "hover_button_text_color": "#ffffff",
+            "hover_button_background_color": "#5c6ac4",
+            "hover_button_border_color": "#5c6ac4",
+            "icon_type": "outline",
+            "icon_size": 16,
+            "icon_background_type": "icon_round_background",
+            "icon_background_color": "#5c6ac4",
+            "icon_fill_color": "#ffffff",
+            "icon_border_color": "#ffffff",
+            "icon_hover_color": "#5c6ac4",
+            "selected_icon_fill_color": "#5c6ac4",
+            "selected_icon_border_color": "#5c6ac4"
+          }
+        },
+        "e53b8574-dd34-4eca-8c40-ac20d2e38598": {
+          "type": "share",
+          "settings": {
+            "show_social_share": true
+          }
+        },
+        "product-tabs": {
+          "type": "product-tabs",
+          "settings": {
+            "enable_product_tabs": true,
+            "product_tabs_fluid_layout": false,
+            "product_tabs_layout": "tabify",
+            "enable_descripion_tab": true,
+            "enable_custom_tab_1": false,
+            "tab_1_title": "Tab Title 1",
+            "tab_1_content": "",
+            "enable_custom_tab_2": false,
+            "tab_2_title": "Tab Title 2",
+            "tab_2_content": ""
+          }
+        },
+        "related-products": {
+          "type": "related-products",
+          "disabled": true,
+          "settings": {
+            "enable_related_products": true,
+            "related_products_fluid_layout": false,
+            "related_products_view": 6,
+            "related_products_auto_play": 0,
+            "related_products_heading_txt": "Related Products",
+            "product_type": "related-products",
+            "related_products_section_bg_color": "#ffffff",
+            "related_products_section_color": "#343a40"
+          }
+        }
+      },
+      "block_order": [
+        "76185562-4eb8-429b-a627-624a152e3944",
+        "f74187b8-c891-42b8-9a6b-2c67a497b018",
+        "0cae53aa-3878-4346-b21a-6fcc0a256450",
+        "81b8e9f4-8ff0-47a8-b30c-2341c62983af",
+        "afa1b535-fa29-4adf-9695-3555aeeb3443",
+        "3b316236-d91e-4dd0-953a-173c1f40bfcf",
+        "fcbf423b-3c83-4097-901c-ca70b8b80e5c",
+        "b253ffff-d04d-43a0-9d68-fabdd77b595a",
+        "68b77596-b764-4259-ba5d-ebffccace153",
+        "fcf005ba-c670-4b24-bb26-e600ab97d417",
+        "e53b8574-dd34-4eca-8c40-ac20d2e38598",
+        "product-tabs",
+        "related-products"
+      ],
+      "settings": {
+        "template_type": "classic-vertical",
+        "fluid_layout": false,
+        "show_vendor": true,
+        "enable_dynamic_checkout": false,
+        "product_tabs_placement": "below_slider"
+      }
+    },
+    "1673523114f9a9aedd": {
+      "type": "apps",
+      "blocks": {
+        "2fe06f4b-8a25-4b7a-93d7-d7ae6f5ef99e": {
+          "type": "shopify:\/\/apps\/trust-badge-master\/blocks\/trustbadge-div-block\/268c65b9-8f6b-465d-9ba7-22a9aa3689e6",
+          "disabled": true,
+          "settings": {
+            "badge_enable": false,
+            "badge_font_color": "#ffffff",
+            "badge_fill_color": "#00a9a2",
+            "icon_alignment": "center",
+            "mobile_icon_size": 100,
+            "icon_size": 135,
+            "badge_heading": "Buy with confidence",
+            "badge_heading_font": "helvetica_n4",
+            "font_size": 20,
+            "text_alignment": "center",
+            "heading_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "2fe06f4b-8a25-4b7a-93d7-d7ae6f5ef99e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "e527456bda5ead513bca": {
+      "type": "apps",
+      "blocks": {
+        "23c6f510-3166-415f-9aef-aec947faf0bb": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "cddcd55e-468f-4d17-aa52-919c473e39e6": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": true,
+            "sku_tagtype": "sku"
+          }
+        },
+        "a75d6ec3-1e7f-45ee-aeb7-92153a56bc62": {
+          "type": "shopify:\/\/apps\/product-reviews-ugc-with-q-a\/blocks\/review-list\/34006358-52bd-4ec7-8c78-200fe58b77ba",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "23c6f510-3166-415f-9aef-aec947faf0bb",
+        "cddcd55e-468f-4d17-aa52-919c473e39e6",
+        "a75d6ec3-1e7f-45ee-aeb7-92153a56bc62"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1673423651d2a14a67": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1673523114f9a9aedd",
+    "e527456bda5ead513bca",
+    "1673423651d2a14a67"
+  ]
+}

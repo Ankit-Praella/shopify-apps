@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "main": {
+      "type": "template-page",
+      "settings": {
+      }
+    },
+    "fa04a836-9cac-4133-9122-82f291b565d7": {
+      "type": "global-features-grid",
+      "disabled": true,
+      "blocks": {
+        "template--17530863583519__fa04a836-9cac-4133-9122-82f291b565d7-1673517422e0916334-0": {
+          "type": "content",
+          "settings": {
+            "icon_img": "",
+            "title": "",
+            "txt": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17530863583519__fa04a836-9cac-4133-9122-82f291b565d7-1673517422e0916334-0"
+      ],
+      "settings": {
+        "fluid_layout": false,
+        "grid_size": "4",
+        "heading_txt": "Awesome Heading",
+        "lead_txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar ac tortor imperdiet commodo.",
+        "btn_txt": "",
+        "btn_url": "",
+        "section_bg_color": "#fafaf7",
+        "section_txt_color": "#222222",
+        "btn_type": "outline",
+        "btn_variant": "primary",
+        "btn_size": ""
+      }
+    },
+    "1673518863929682e4": {
+      "type": "apps",
+      "blocks": {
+        "932a5310-4e9f-4591-8510-0cb0dcb0a34e": {
+          "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/form-block\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "disabled": true,
+          "settings": {
+            "form_uuid": "vOvoWzMPrjDLQmpl2sLYxA",
+            "form_settings": true,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        },
+        "1bcf0e46-8884-49a5-8a17-0ef17e58e2b6": {
+          "type": "shopify:\/\/apps\/contact-us-form-with-captcha\/blocks\/contact-us-form\/a9c778db-ef3e-4d3b-8775-c01d242fd46f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "932a5310-4e9f-4591-8510-0cb0dcb0a34e",
+        "1bcf0e46-8884-49a5-8a17-0ef17e58e2b6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fa04a836-9cac-4133-9122-82f291b565d7",
+    "1673518863929682e4"
+  ]
+}
